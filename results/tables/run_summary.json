@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "records": 801,
+    "samples": 3,
+    "retained": 426,
+    "retention_percent": 53.1835205993
+  },
+  "phylogeny": {
+    "training_tips": 256,
+    "training_metadata": 275,
+    "training_extra_metadata": 19,
+    "training_hosts": 6,
+    "shigella_tips": 299,
+    "shigella_countries": 17,
+    "macrolide_gene_recorded": 57
+  },
+  "spatial": {
+    "repaired_map_geometries": 0,
+    "location_records": 103,
+    "valid_location_records": 102,
+    "unique_mapped_lab_locations": 102,
+    "location_countries": 37,
+    "flow_records": 125,
+    "cross_border_records": 125,
+    "valid_route_records": 125,
+    "historical_map_rows": 238,
+    "historical_map_matched": 160
+  },
+  "outbreak": {
+    "cases": 5888,
+    "onset_observed": 5632,
+    "onset_missing": 256,
+    "deaths": 2582,
+    "recovered": 1983,
+    "outcome_missing": 1323,
+    "known_outcome_death_percent": 56.560788609,
+    "known_outcome_lower": 55.1179739389,
+    "known_outcome_upper": 57.9925707232,
+    "peak_week": "2014-09-15",
+    "peak_week_cases": 304,
+    "median_admission_delay": 1,
+    "negative_admission_delays": 0,
+    "recorded_links": 3800,
+    "matched_endpoint_links": 2161,
+    "unmatched_endpoint_links": 1639,
+    "displayed_link_nodes": 80,
+    "displayed_links": 15
+  }
+}

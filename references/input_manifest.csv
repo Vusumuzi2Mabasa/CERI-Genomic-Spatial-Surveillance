@@ -1,0 +1,10 @@
+"file","sha256","bytes"
+"data/example/Africa_sequencing_data.xlsx","8997623fba82fa8c0b0829920a0aec699b880dc678f3a3b58cdd7f92d9e5f3a3",21248
+"data/example/Shigella_tree.txt","3e560e152ef6c508c3455cb64b862cff347b07ca15a8e52b1a76507c8a1ba85a",11047
+"data/example/combined_tidy_vcf.csv","af55d5614bda36379f857120c8fcd17c23a526bc5d022c3b0270529e96d41985",172202
+"data/example/covid_incidence.csv","479dff4fd8f6e0aeb60474bd1e49bfff08af56296738cbed560dad489fabc61c",6411
+"data/example/linelist_cleaned.rds","3465b67f7371a4bde6e6d3b72799289133a570d9a83fbccc06833175b1838981",290215
+"data/example/local_sequencing_data.xlsx","2f9e126132de21fe7c1586958f1115bc0d62c3fff77fd898af89488a0b706d6d",21459
+"data/example/sample_data_Shigella_tree.csv","a000a6325444d6b513b37ab2af32b9cf5c6c84562a8cf0c8e1c893678256a79e",23238
+"data/example/training_timetree.nexus","e896c7c8e37647c79e8ee89d0cc67158afab6a522a3e1be7b432b96db8c5b514",78386
+"data/example/training_tree_metadata.csv","56e0ed9ef59415e44d6acb4903eef024b877b8e82966cc17a00b5b14a5b49e29",9235

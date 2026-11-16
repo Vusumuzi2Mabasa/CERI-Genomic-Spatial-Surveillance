@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the repository and the original data sources when reusing these analyses."
+title: "Genomic and Spatial Surveillance in R"
+type: software
+authors:
+  - family-names: Mabasa
+    given-names: Vusumuzi
+  - family-names: Mahlangu
+    given-names: Sibusiso
+date-released: 2026-11-16
+repository-code: "https://github.com/Vusumuzi2Mabasa/CERI-Genomic-Spatial-Surveillance"
+abstract: "Reproducible reanalysis of joint CERI training work covering variant visualisation, supplied phylogenies, spatial surveillance and a fictional outbreak dashboard."

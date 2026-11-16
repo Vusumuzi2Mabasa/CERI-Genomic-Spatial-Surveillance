@@ -1,0 +1,88 @@
+---
+title: "Fictional Ebola outbreak surveillance"
+author: "Vusumuzi Mabasa and Sibusiso Mahlangu"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+    self_contained: true
+    theme: flatly
+params:
+  project_root: ".."
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE,warning=FALSE,message=FALSE,out.width='100%')
+root<-params$project_root
+m<-jsonlite::fromJSON(file.path(root,'results/tables/run_summary.json'))$outbreak
+tab<-function(name)read.csv(file.path(root,'results/tables',paste0(name,'.csv')))
+```
+
+Overview
+=======================================================================
+
+Row
+-----------------------------------------------------------------------
+
+### Interpretation
+
+This dashboard reproduces a **fictional training outbreak**. It does not describe actual patients. Cases with missing dates or outcomes remain included in the completeness tables. The overview covers `r m$cases` records; `r m$onset_missing` lack onset dates and `r m$outcome_missing` lack outcomes.
+
+Row
+-----------------------------------------------------------------------
+
+### Epidemic characteristics
+
+```{r overview}
+knitr::include_graphics(file.path(root,'results/figures/fictional_outbreak_overview.png'),rel_path=FALSE)
+```
+
+Row
+-----------------------------------------------------------------------
+
+### Recorded outcomes
+
+```{r outcomes}
+knitr::kable(tab('outbreak_outcomes'),digits=1)
+```
+
+Contact links
+=======================================================================
+
+Row
+-----------------------------------------------------------------------
+
+### Link completeness
+
+Of `r m$recorded_links` recorded infector links, `r m$matched_endpoint_links` have both endpoints in the cleaned line list. The remaining `r m$unmatched_endpoint_links` reference an absent identifier. Missing links are not reconstructed. The deterministic 80-case June subset displays `r m$displayed_links` internal matched links.
+
+Row
+-----------------------------------------------------------------------
+
+### Provided fictional contacts
+
+```{r contacts}
+knitr::include_graphics(file.path(root,'results/figures/fictional_transmission_links.png'),rel_path=FALSE)
+```
+
+Completeness
+=======================================================================
+
+Row
+-----------------------------------------------------------------------
+
+### Variable completeness
+
+```{r missingness}
+knitr::kable(tab('outbreak_missingness'),digits=2)
+```
+
+Row
+-----------------------------------------------------------------------
+
+### Date and link audits
+
+```{r audit}
+knitr::kable(tab('outbreak_date_qc'))
+knitr::kable(tab('outbreak_link_qc'))
+```

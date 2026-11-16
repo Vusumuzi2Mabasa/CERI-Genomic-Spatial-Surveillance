@@ -1,0 +1,48 @@
+"country","SequencingCountry","origin_lon","origin_lat","dest_lon","dest_lat","records"
+"Algeria","Nigeria",1.6596,28.0339,4.4439,7.7349,1
+"Angola","South Africa",17.8739,-11.2027,18.8644,-33.9328,3
+"Benin","Ghana",2.10781684310863,9.69043257429939,-0.187,5.6037,1
+"Botswana","South Africa",24.1672419991854,-22.199416636734,18.8644,-33.9328,2
+"Burkina Faso","Nigeria",-1.5616,12.2383,4.4439,7.7349,1
+"Burundi","Uganda",29.9189,-3.3731,32.4637,0.0512,1
+"Cabo Verde","Senegal",-23.0418,16.5388,-17.4677,14.7167,3
+"Cameroon","Democratic Republic of the Congo",12.3547,7.3697,15.302486,-4.309862,1
+"Cameroon","Nigeria",12.3547,7.3697,4.4439,7.7349,1
+"Cameroon","Senegal",12.3547,7.3697,-17.4677,14.7167,5
+"Cameroon","South Africa",12.3547,7.3697,18.8644,-33.9328,3
+"Central African Republic","Democratic Republic of the Congo",20.9394,6.6111,15.302486,-4.309862,1
+"Central African Republic","Senegal",20.9394,6.6111,-17.4677,14.7167,1
+"Chad","Democratic Republic of the Congo",18.7322,15.4542,15.302486,-4.309862,1
+"Democratic Republic of the Congo","Kenya",21.7587,-4.0383,36.8219,-1.2921,1
+"Egypt","Nigeria",30.8025,26.8206,4.4439,7.7349,1
+"Eswatini","South Africa",31.4659,-26.5225,28.0473,-26.2041,52
+"Ethiopia","Kenya",40.4897,9.145,39.9093,-3.5107,1
+"Ethiopia","South Africa",40.4897,9.145,18.8644,-33.9328,1
+"Gabon","Nigeria",11.6094,-0.8037,4.4439,7.7349,1
+"Ghana","Nigeria",-1.0232,7.9465,4.4439,7.7349,1
+"Guinea","Senegal",-9.6966,9.9456,-17.4677,14.7167,1
+"Guinea-Bissau","Gambia",-15.1804,11.8037,-15.3101,13.4432,2
+"Lesotho","South Africa",28.2336,-29.61,28.0473,-26.2041,1
+"Madagascar","Senegal",46.8691,-18.7669,-17.4677,14.7167,1
+"Malawi","South Africa",34.3015,-13.2543,18.8644,-33.9328,3
+"Mauritius","South Africa",57.5522,-20.3484,18.8644,-33.9328,2
+"Mauritius","South Africa",57.5522,-20.3484,28.0473,-26.2041,2
+"Mozambique","South Africa",35.5296,-18.6657,18.8644,-33.9328,5
+"Mozambique","South Africa",35.5296,-18.6657,28.0473,-26.2041,1
+"Namibia","South Africa",18.4904,-22.9676,18.8644,-33.9328,2
+"Namibia","South Africa",18.4904,-22.9676,28.0473,-26.2041,3
+"Niger","Senegal",9.20676100937941,17.3364021094323,-17.4677,14.7167,2
+"Nigeria","Ghana",8.25233153,9.27158858,-0.187,5.6037,1
+"Republic of Congo","Democratic Republic of the Congo",15.2429,-4.2634,15.302486,-4.309862,1
+"Rwanda","Nigeria",29.8739,-1.9403,4.4439,7.7349,1
+"Seychelles","Kenya",55.492,-4.6796,39.9093,-3.5107,1
+"Sierra Leone","Ghana",-11.7799,8.4606,-0.187,5.6037,1
+"Somalia","Nigeria",46.1996,5.1521,4.4439,7.7349,1
+"South Sudan","Uganda",31.307,6.877,32.4637,0.0512,2
+"Sudan","South Africa",30.2176,12.8628,28.0473,-26.2041,2
+"Togo","Ghana",0.8248,8.6195,-0.187,5.6037,1
+"Tunisia","Nigeria",9.5375,33.8869,4.4439,7.7349,1
+"Tunisia","Senegal",9.5375,33.8869,-17.4677,14.7167,1
+"Uganda","South Africa",32.2999312978543,1.52683295131975,18.8644,-33.9328,2
+"Union of the Comoros","Kenya",43.3333,-11.6455,39.9093,-3.5107,1
+"Zimbabwe","South Africa",29.1549,-19.0154,18.8644,-33.9328,1

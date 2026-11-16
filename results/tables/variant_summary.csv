@@ -1,0 +1,4 @@
+"sample_id","records","unique_positions","median_depth","depth_IQR","median_QUAL","retained","retained_percent"
+"SRR2584863",25,25,10,3,211,16,64
+"SRR2584866",766,766,10,6,195,405,52.8720626631854
+"SRR2589044",10,10,9.5,3.5,204.5,5,50

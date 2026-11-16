@@ -1,0 +1,22 @@
+"check","passed"
+"Variant schema available",TRUE
+"Nonnegative depth and positive genomic positions",TRUE
+"No duplicate sample-specific allele records",TRUE
+"Variant retention percentages between zero and 100",TRUE
+"Training tree and metadata identifiers unique",TRUE
+"Every training-tree tip matched to metadata after BOM repair",TRUE
+"Training-tree branch lengths finite and nonnegative",TRUE
+"Shigella tip and metadata identifiers unique",TRUE
+"Every Shigella tree tip matched to metadata",TRUE
+"Shigella branch lengths finite and nonnegative",TRUE
+"Natural Earth plotting rings valid under GEOS",TRUE
+"Sequencing-location workbooks contain records",TRUE
+"Historical mapping-table schema available",TRUE
+"Historical mapping table has unique country labels",TRUE
+"Fictional outbreak linelist schema available",TRUE
+"Fictional case identifiers unique",TRUE
+"Recorded ages nonnegative",TRUE
+"Weekly case totals reconcile with available onset dates",TRUE
+"Transmission endpoint audit reconciles all recorded links",TRUE
+"Displayed transmission links have matched endpoints",TRUE
+"No self-links in supplied transmission contacts",TRUE

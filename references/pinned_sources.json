@@ -1,0 +1,46 @@
+[
+  {
+    "repository": "datacarpentry/genomics-r-intro",
+    "commit": "67307b690d74b696ce91b8531716ccb810b2b0ae",
+    "path": "episodes/data/combined_tidy_vcf.csv",
+    "url": "https://raw.githubusercontent.com/datacarpentry/genomics-r-intro/67307b690d74b696ce91b8531716ccb810b2b0ae/episodes/data/combined_tidy_vcf.csv",
+    "file": "combined_tidy_vcf.csv",
+    "sha256": "af55d5614bda36379f857120c8fcd17c23a526bc5d022c3b0270529e96d41985"
+  },
+  {
+    "repository": "appliedepi/epirhandbook_eng",
+    "commit": "e121efa5e4dbb9144ed107f0be51181619c031e6",
+    "path": "data/phylo/Shigella_tree.txt",
+    "url": "https://raw.githubusercontent.com/appliedepi/epirhandbook_eng/e121efa5e4dbb9144ed107f0be51181619c031e6/data/phylo/Shigella_tree.txt",
+    "file": "Shigella_tree.txt",
+    "sha256": "3e560e152ef6c508c3455cb64b862cff347b07ca15a8e52b1a76507c8a1ba85a",
+    "matches_original_bytes": true
+  },
+  {
+    "repository": "appliedepi/epirhandbook_eng",
+    "commit": "e121efa5e4dbb9144ed107f0be51181619c031e6",
+    "path": "data/phylo/sample_data_Shigella_tree.csv",
+    "url": "https://raw.githubusercontent.com/appliedepi/epirhandbook_eng/e121efa5e4dbb9144ed107f0be51181619c031e6/data/phylo/sample_data_Shigella_tree.csv",
+    "file": "sample_data_Shigella_tree.csv",
+    "sha256": "a000a6325444d6b513b37ab2af32b9cf5c6c84562a8cf0c8e1c893678256a79e",
+    "matches_original_bytes": true
+  },
+  {
+    "repository": "appliedepi/epirhandbook_eng",
+    "commit": "e121efa5e4dbb9144ed107f0be51181619c031e6",
+    "path": "data/case_linelists/linelist_cleaned.rds",
+    "url": "https://raw.githubusercontent.com/appliedepi/epirhandbook_eng/e121efa5e4dbb9144ed107f0be51181619c031e6/data/case_linelists/linelist_cleaned.rds",
+    "file": "linelist_cleaned.rds",
+    "sha256": "3465b67f7371a4bde6e6d3b72799289133a570d9a83fbccc06833175b1838981",
+    "matches_original_bytes": false
+  },
+  {
+    "repository": "appliedepi/epirhandbook_eng",
+    "commit": "e121efa5e4dbb9144ed107f0be51181619c031e6",
+    "path": "data/gis/covid_incidence.csv",
+    "url": "https://raw.githubusercontent.com/appliedepi/epirhandbook_eng/e121efa5e4dbb9144ed107f0be51181619c031e6/data/gis/covid_incidence.csv",
+    "file": "covid_incidence.csv",
+    "sha256": "479dff4fd8f6e0aeb60474bd1e49bfff08af56296738cbed560dad489fabc61c",
+    "matches_original_bytes": true
+  }
+]

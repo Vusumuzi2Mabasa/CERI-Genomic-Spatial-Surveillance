@@ -1,0 +1,239 @@
+"Name","Cumulative_incidence","map_id"
+"Global",11220.3074927048,
+"United States of America",64796.07,"USA"
+"India",7545.93,"IND"
+"Brazil",37456.22,"BRA"
+"Russian Federation",23154.94,"RUS"
+"The United Kingdom",43565.32,
+"France",41389.81,"FRA"
+"Italy",37013.27,"ITA"
+"Spain",43323.06,"ESP"
+"Germany",22576.89,"DEU"
+"Ivory Coast",34144.03,"CIV"
+"Argentina",37393.01,"ARG"
+"Mexico",11584.09,"MEX"
+"Turkey",17705.23,"TUR"
+"Poland",36367.56,"POL"
+"Iran (Islamic Republic of)",15174.06,
+"South Africa",20107.85,"ZAF"
+"Ukraine",25381.19,"UKR"
+"Peru",31138.38,"PER"
+"Netherlands",50126.67,"NLD"
+"Czechia",76824.86,"CZE"
+"Swaziland",2955.28,"SWZ"
+"Romania",34504.09,"ROU"
+"Republic of Congo",57008.15,"COG"
+"Canada",16828.24,"CAN"
+"Chile",33133.2,"CHL"
+"Iraq",14952.43,"IRQ"
+"Bangladesh",3161.65,"BGD"
+"Pakistan",2252.27,"PAK"
+"Sweden",48466,"SWE"
+"Philippines",4415.47,"PHL"
+"Switzerland",54953.76,"CHE"
+"Israel",54671.61,"ISR"
+"Portugal",45770.55,"PRT"
+"Morocco",12197.62,"MAR"
+"Austria",41710.79,"AUT"
+"Saudi Arabia",10443.6,"SAU"
+"Serbia",51139.73,"SRB"
+"Hungary",35242.92,"HUN"
+"Guinea Bissau",29908.75,"GNB"
+"Japan",2159.72,"JPN"
+"Panama",62365.13,"PAN"
+"Nepal",9066.16,"NPL"
+"Georgia",59683.14,"GEO"
+"United Arab Emirates",22719.4,"ARE"
+"Azerbaijan",22035.02,"AZE"
+"Croatia",53430.63,"HRV"
+"Ecuador",12421.21,"ECU"
+"Lebanon",30787.59,"LBN"
+"Belarus",22075.76,"BLR"
+"Bulgaria",29936.48,"BGR"
+"Kazakhstan",11015.78,"KAZ"
+"Slovakia",37591.48,"SVK"
+"Dominican Republic",16458.29,"DOM"
+"Denmark",30816.78,"DNK"
+"Costa Rica",34629.55,"CRI"
+"Bolivia (Plurinational State of)",14468.49,
+"occupied Palestinian territory, including east Jerusalem",32225.38,
+"Armenia",54600.31,"ARM"
+"Lithuania",58105.51,"LTU"
+"Tunisia",13106.69,"TUN"
+"Kuwait",35937.35,"KWT"
+"Republic of Moldova",36854.33,
+"Egypt",1444.38,"EGY"
+"Qatar",50490.57,"QAT"
+"Greece",13766.98,"GRC"
+"Guatemala",7929.64,"GTM"
+"Slovenia",66629.21,"SVN"
+"Ireland",27519.22,"IRL"
+"Malaysia",4050.79,"MYS"
+"Oman",25470.83,"OMN"
+"Myanmar",2379.77,"MMR"
+"Ethiopia",1109.67,"ETH"
+"Honduras",12676.63,"HND"
+"Venezuela (Bolivarian Republic of)",4055.5,
+"Bosnia and Herzegovina",34869.95,"BIH"
+"Paraguay",15822.7,"PRY"
+"Libya",15135.73,"LBY"
+"Algeria",2318.23,"DZA"
+"Kenya",1821.68,"KEN"
+"Nigeria",472.87,"NGA"
+"China",66.19,"CHN"
+"Bahrain",55848.26,
+"North Macedonia",41084.2,"MKD"
+"Kyrgyzstan",12589.75,"KGZ"
+"Puerto Rico",28686.2,"PRI"
+"Uzbekistan",2316.46,"UZB"
+"Republic of Korea",1326.31,"KOR"
+"Albania",21675.61,"ALB"
+"Singapore",10056.85,
+"Ghana",1784.86,"GHA"
+"Norway",9922.45,"NOR"
+"Afghanistan",1371.75,"AFG"
+"Kosovo[1]",28435.04,
+"Montenegro",82172.89,"MNE"
+"El Salvador",7439.64,"SLV"
+"Latvia",25332.44,"LVA"
+"Luxembourg",76264.66,"LUX"
+"Sri Lanka",2209.15,"LKA"
+"Finland",6870.59,"FIN"
+"Uganda",815.37,"UGA"
+"Estonia",24943.93,"EST"
+"Australia",1120.44,"AUS"
+"Namibia",10726.49,"NAM"
+"Cameroon",1011.38,"CMR"
+"Cyprus",22092.85,"CYP"
+"Zambia",1377.61,"ZMB"
+"Uruguay",6853.44,"URY"
+"Sudan",531.73,"SDN"
+"Côte d’Ivoire",878.49,
+"Senegal",1234.6,"SEN"
+"Mozambique",655.31,"MOZ"
+"Zimbabwe",1322.75,"ZWE"
+"Democratic Republic of the Congo",209.2,"COD"
+"Angola",549.68,"AGO"
+"Madagascar",641.62,"MDG"
+"French Polynesia",61375.97,
+"Botswana",6825.49,"BWA"
+"Mauritania",3272.07,"MRT"
+"Malta",32187.13,
+"Maldives",25973.83,
+"French Guiana",46772.15,
+"Guinea",1058.72,"GIN"
+"Cuba",1220.4,"CUB"
+"Tajikistan",1434.95,"TJK"
+"Jamaica",4528.96,"JAM"
+"Cabo Verde",22009.51,
+"Syrian Arab Republic",695.92,
+"Belize",28046.31,"BLZ"
+"Eswatini",9458.15,"SWZ"
+"Haiti",898.13,"HTI"
+"Thailand",140.99,"THA"
+"Gabon",4355.42,"GAB"
+"Réunion",10328.24,
+"Rwanda",699.34,"RWA"
+"Guadeloupe",21748.26,
+"Andorra",109868.63,
+"Bahamas",20264.77,"BHS"
+"Malawi",414.27,"MWI"
+"Burkina Faso",376.3,"BFA"
+"Mali",366.75,"MLI"
+"Guam",42737.37,
+"Trinidad and Tobago",5151.88,"TTO"
+"Congo",1297.55,"COG"
+"Suriname",11506.36,"SUR"
+"Guyana",8224.5,"GUY"
+"Mayotte",22843.32,
+"Martinique",16300.48,
+"Aruba",55101.81,
+"Iceland",17193.03,"ISL"
+"Djibouti",5936.23,"DJI"
+"Equatorial Guinea",3769.82,"GNQ"
+"Central African Republic",1028.83,"CAF"
+"Nicaragua",734.69,"NIC"
+"Somalia",297.36,"SOM"
+"Curaçao",26844.53,
+"Togo",464.44,"TGO"
+"Gambia",1589.38,"GMB"
+"South Sudan",321.97,"SDS"
+"Niger",137.24,"NER"
+"Benin",272.54,"BEN"
+"Gibraltar",86907.48,
+"Jersey",26727.94,
+"Sierra Leone",348.75,"SLE"
+"San Marino",77435.32,
+"Lesotho",1202.94,"LSO"
+"Guinea-Bissau",1243.39,"GNB"
+"Chad",147.27,"TCD"
+"Liechtenstein",62380.37,
+"United States Virgin Islands",20397.41,
+"Yemen",70.68,"YEM"
+"New Zealand",379.91,"NZL"
+"Liberia",355.89,"LBR"
+"Eritrea",438.75,"ERI"
+"Sint Maarten",35702.63,
+"Viet Nam",15.53,"VNM"
+"Mongolia",425.53,"MNG"
+"Sao Tome and Principe",4809.29,
+"Monaco",26526.35,
+"Saint Martin",25918.93,
+"Turks and Caicos Islands",24691.36,
+"Burundi",74.43,"BDI"
+"Comoros",993.56,
+"Papua New Guinea",90.64,"PNG"
+"Barbados",2714.22,
+"Bhutan",999.21,"BTN"
+"Other",,
+"Faroe Islands",13179.17,
+"Bermuda",10293.39,
+"Mauritius",423.82,
+"United Republic of Tanzania",8.52,"TZA"
+"Seychelles",4555.3,
+"Isle of Man",4598.27,
+"Cambodia",23.15,"KHM"
+"Saint Lucia",2085.75,
+"Cayman Islands",5462.57,
+"Guernsey",4778.78,
+"Bonaire",12144.39,
+"Saint Vincent and the Grenadines",1838.83,
+"Saint Barthélemy",19322.21,
+"Brunei Darussalam",395.45,"BRN"
+"Antigua and Barbuda",1705.32,
+"Grenada",1164.21,
+"Northern Mariana Islands (Commonwealth of the)",2171.76,
+"British Virgin Islands",3770.22,
+"Dominica",1472.41,
+"Fiji",59.12,"FJI"
+"Timor-Leste",37.16,"TLS"
+"Lao People's Democratic Republic",5.64,
+"New Caledonia",140.11,"NCL"
+"Saint Kitts and Nevis",639.19,
+"Falkland Islands (Malvinas)",8326.16,"FLK"
+"Greenland",510.82,"GRL"
+"Holy See",32138.44,
+"Sint Eustatius",6052.88,
+"Solomon Islands",24.75,"SLB"
+"Saint Pierre and Miquelon",2761,
+"Anguilla",999.87,
+"Montserrat",2600.52,
+"Saba",2586.65,
+"Marshall Islands",67.57,
+"Wallis and Futuna",355.68,
+"Vanuatu",3.26,"VUT"
+"American Samoa",0,
+"Cook Islands",0,
+"Democratic People's Republic of Korea",0,
+"Kiribati",0,
+"Micronesia (Federated States of)",0,
+"Nauru",0,
+"Niue",0,
+"Palau",0,
+"Pitcairn Islands",0,
+"Saint Helena",0,
+"Samoa",0,
+"Tokelau",0,
+"Tonga",0,
+"Turkmenistan",0,"TKM"
+"Tuvalu",0,

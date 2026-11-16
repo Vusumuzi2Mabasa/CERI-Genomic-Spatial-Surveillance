@@ -1,0 +1,12 @@
+args<-commandArgs(trailingOnly=FALSE);fa<-sub('^--file=','',args[grepl('^--file=',args)])
+if(length(fa))setwd(normalizePath(file.path(dirname(fa),'..'),winslash='/'))
+library(jsonlite);library(digest)
+records<-fromJSON('references/pinned_sources.json',simplifyVector=FALSE)
+records<-Filter(function(x)x$file!='ebola_sim.RData',records)
+write_json(records,'references/pinned_sources.json',pretty=TRUE,auto_unbox=TRUE)
+files<-sort(list.files('data/example',full.names=TRUE));files<-files[!grepl('ebola_sim.RData$',files)]
+hashes<-data.frame(file=gsub('\\','/',files,fixed=TRUE),sha256=vapply(files,function(f)digest(file=f,algo='sha256'),character(1)),bytes=file.info(files)$size)
+write.csv(hashes,'references/input_manifest.csv',row.names=FALSE)
+pk<-c('ggplot2','dplyr','tidyr','readxl','ape','sf','patchwork','jsonlite','rnaturalearth','rnaturalearthdata','stringi','rmarkdown','flexdashboard','knitr','digest')
+renv::snapshot(packages=pk,lockfile='renv.lock',prompt=FALSE,force=TRUE)
+cat('Input SHA-256 fingerprints and dependency lockfile recorded.\n')

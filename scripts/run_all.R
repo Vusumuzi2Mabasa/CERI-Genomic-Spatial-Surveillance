@@ -1,0 +1,15 @@
+args<-commandArgs(trailingOnly=FALSE);file_arg<-sub('^--file=','',args[grepl('^--file=',args)])
+if(length(file_arg)&&basename(file_arg)=='run_all.R')setwd(normalizePath(file.path(dirname(file_arg),'..'),winslash='/',mustWork=TRUE))
+set.seed(20261116)
+dir.create('results/figures',recursive=TRUE,showWarnings=FALSE);dir.create('results/tables',recursive=TRUE,showWarnings=FALSE);dir.create('results/reports',recursive=TRUE,showWarnings=FALSE)
+needed<-c('ggplot2','dplyr','tidyr','readxl','ape','sf','patchwork','jsonlite','rnaturalearth','rnaturalearthdata','stringi')
+missing<-needed[!vapply(needed,requireNamespace,logical(1),quietly=TRUE)]
+if(length(missing))stop('Install missing packages using scripts/install_dependencies.R: ',paste(missing,collapse=', '))
+source('R/common.R');qc_records<-list();metrics<-list()
+for(f in sort(list.files('analyses',pattern='[.]R$',full.names=TRUE))){cat('Running ',f,'\n');source(f,local=.GlobalEnv)}
+write_table(bind_rows(qc_records),'qc_checks')
+write_json(metrics,'results/tables/run_summary.json',pretty=TRUE,auto_unbox=TRUE,digits=10)
+writeLines(capture.output(sessionInfo()),'results/reports/session_info.txt')
+package_versions<-data.frame(package=needed,version=vapply(needed,function(x)as.character(packageVersion(x)),character(1)))
+write_table(package_versions,'package_versions')
+cat('All ',length(qc_records),' QC checks passed.\n')
