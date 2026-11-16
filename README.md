@@ -109,7 +109,9 @@ All **125 submission-link records** had usable origin and destination coordinate
 
 ![Submission links from origin-country coordinates to sequencing laboratories](results/figures/sequencing_submission_routes.png)
 
-The separate historical mapping exercise matched **160 of 238 table entries** to the coarse Natural Earth boundary layer. The table also includes aggregate/territory labels not represented by that layer. Its [choropleth](results/figures/historical_country_mapping.png) and complete matching table are retained as supplementary outputs.
+The separate historical mapping exercise matched **160 of 238 table entries** to the coarse Natural Earth boundary layer. The table also includes aggregate/territory labels not represented by that layer. The complete matching audit is retained with the results tables; the choropleth illustrates the supplied values without establishing present-day disease burden.
+
+![Illustrative historical country mapping](results/figures/historical_country_mapping.png)
 
 ### Fictional epidemic characteristics and incomplete contact links
 
@@ -188,3 +190,4 @@ results/tables/        Machine-readable summaries and QC audits
 results/reports/       HTML research report, dashboard and R session information
 renv.lock              Recorded dependency versions
 ```
+

@@ -1,0 +1,16 @@
+{
+  "clean_copy_analysis_QC_checks": 21,
+  "matching_result_tables_and_readme": 18,
+  "numeric_results_identical": true,
+  "rendered_html": {
+    "outbreak_dashboard.html": {
+      "embedded_images": 2,
+      "all_images_self_contained": true
+    },
+    "surveillance_report.html": {
+      "embedded_images": 8,
+      "all_images_self_contained": true
+    }
+  },
+  "passed": true
+}
